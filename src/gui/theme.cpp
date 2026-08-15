@@ -86,6 +86,10 @@ QString darkStyleSheet()
             border-color: #303030;
         }
 
+        QFrame#card:hover, QFrame#metricCard:hover {
+            border-color: #548baa;
+        }
+
         QPushButton {
             min-height: 34px;
             padding: 0 14px;
